@@ -1,0 +1,63 @@
+/* Вестерн-стили для Джонни Сколиоза */
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background-color: #0f0d0a;
+  color: #e6d7b8;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+  color: #b38a5c;
+  border-bottom: 2px solid #5d3c1a;
+  padding-bottom: 0.5rem;
+}
+
+/* Ссылки */
+a {
+  color: #e6b17e;
+  text-decoration: none;
+  border-bottom: 1px dashed #b38a5c;
+}
+
+a:hover {
+  color: #ffd8a6;
+  border-bottom-style: solid;
+}
+
+/* Карточки постов */
+.post-preview {
+  background: rgba(42, 28, 21, 0.5);
+  border: 1px solid #5d3c1a;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 5px;
+}
+
+.tag {
+  display: inline-block;
+  background: #2a1c15;
+  color: #e6b17e;
+  padding: 0.2rem 0.8rem;
+  margin: 0.2rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+  border: 1px solid #5d3c1a;
+}
+
+/* Доска заказов */
+[class*="УРОВЕНЬ"] {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid;
+}
+
+.🔴 { border-color: #c33; background: rgba(195, 51, 51, 0.1); }
+.🟡 { border-color: #cc3; background: rgba(204, 204, 51, 0.1); }
+
+/* Аватар */
+.avatar-img {
+  border-radius: 50%;
+  border: 3px solid #8b4513;
+  box-shadow: 0 0 15px rgba(139, 69, 19, 0.5);
+}
