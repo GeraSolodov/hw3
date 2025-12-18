@@ -12,6 +12,9 @@ theme = 'congo'
   showReadingTime = true
   showWordCount = true
   showPostNavLinks = true
+
+  [params.assets]
+  disableFingerprinting = true
   
   [params.author]
     name = "Джонни 'Позвоночник' Сколиоз"
@@ -34,6 +37,3 @@ theme = 'congo'
     name = '⚔️ Доска заказов'
     url = '/bounties/'
     weight = 3
-
-[params.assets]
-  disableFingerprinting = true
