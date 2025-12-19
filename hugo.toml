@@ -6,17 +6,18 @@ theme = 'congo'
 [pagination]
   pagerSize = 5
 
-[params]
-  description = 'Хроники охотника за головами на тварей из иных миров. Гвозди, свинец, древние заклинания.'
-  defaultAppearance = 'dark'
-  showReadingTime = true
-  showWordCount = true
-  showPostNavLinks = true
 
-  [params.assets]
+description = 'Хроники охотника за головами на тварей из иных миров. Гвозди, свинец, древние заклинания.'
+defaultAppearance = 'dark'
+showReadingTime = true
+showWordCount = true
+showPostNavLinks = true
+
+[params.assets]
+  customCSS = ["css/custom.css"]
   disableFingerprinting = true
   
-  [params.author]
+[params.author]
     name = "Джонни 'Позвоночник' Сколиоз"
     image = "/img/avatar.jpg"
     bio = "Охотник на монстров в землях между мирами"
